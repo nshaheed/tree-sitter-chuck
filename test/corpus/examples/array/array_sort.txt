@@ -127,14 +127,16 @@ for( auto x : foos ) { <<< x >>>; }
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -156,14 +158,16 @@ for( auto x : foos ) { <<< x >>>; }
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -203,14 +207,16 @@ for( auto x : foos ) { <<< x >>>; }
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -257,14 +263,16 @@ for( auto x : foos ) { <<< x >>>; }
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -312,14 +320,16 @@ for( auto x : foos ) { <<< x >>>; }
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -367,14 +377,16 @@ for( auto x : foos ) { <<< x >>>; }
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -427,14 +439,16 @@ for( auto x : foos ) { <<< x >>>; }
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier

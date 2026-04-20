@@ -158,7 +158,8 @@ SinOsc theChild @=> UGen @ theParent;
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))
           (operator)
@@ -177,7 +178,8 @@ SinOsc theChild @=> UGen @ theParent;
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (string))
               (operator)
@@ -193,7 +195,8 @@ SinOsc theChild @=> UGen @ theParent;
         (binary_expression
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string))
             (operator)
@@ -212,7 +215,8 @@ SinOsc theChild @=> UGen @ theParent;
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))
           (operator)
@@ -227,12 +231,14 @@ SinOsc theChild @=> UGen @ theParent;
             (variable_identifier)))
         (statement
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))))
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -243,7 +249,8 @@ SinOsc theChild @=> UGen @ theParent;
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (string)))
       (line_comment)
@@ -267,7 +274,8 @@ SinOsc theChild @=> UGen @ theParent;
         (statement
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string))
             (operator)
@@ -286,7 +294,8 @@ SinOsc theChild @=> UGen @ theParent;
               (line_comment)
               (statement
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (function_call
                     (member_identifier
@@ -304,7 +313,8 @@ SinOsc theChild @=> UGen @ theParent;
               (line_comment)
               (statement
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (expression_group
                     (ternary_expression
@@ -332,7 +342,8 @@ SinOsc theChild @=> UGen @ theParent;
                     (binary_expression
                       (binary_expression
                         (binary_expression
-                          (variable_identifier)
+                          (keyword
+                            (stream_output_keywords))
                           (operator)
                           (string))
                         (operator)
@@ -373,7 +384,8 @@ SinOsc theChild @=> UGen @ theParent;
         (binary_expression
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string))
             (operator)
@@ -396,7 +408,8 @@ SinOsc theChild @=> UGen @ theParent;
             (binary_expression
               (binary_expression
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (string))
                 (operator)
@@ -625,7 +638,8 @@ SinOsc theChild @=> UGen @ theParent;
         (binary_expression
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string))
             (operator)
@@ -670,7 +684,8 @@ SinOsc theChild @=> UGen @ theParent;
         (binary_expression
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string))
             (operator)

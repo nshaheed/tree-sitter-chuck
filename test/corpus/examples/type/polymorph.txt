@@ -209,7 +209,8 @@ while( true )
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (string))
               (operator)

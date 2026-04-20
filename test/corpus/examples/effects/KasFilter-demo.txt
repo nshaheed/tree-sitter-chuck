@@ -116,28 +116,32 @@ signal [dot] automatique [at] gmail [another dot] com
   (line_comment)
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier))))
   (statement
     (chuck_operation
@@ -237,33 +241,38 @@ signal [dot] automatique [at] gmail [another dot] com
         (variable_identifier))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier))))
   (statement
     (chuck_operation
@@ -362,43 +371,50 @@ signal [dot] automatique [at] gmail [another dot] com
         (variable_identifier))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier))))
   (statement
     (chuck_operation
@@ -504,28 +520,32 @@ signal [dot] automatique [at] gmail [another dot] com
         (variable_identifier))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier))))
   (statement
     (chuck_operation

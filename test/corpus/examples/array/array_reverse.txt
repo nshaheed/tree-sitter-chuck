@@ -102,7 +102,8 @@ fun void print_arr(int a[]) {
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (array_identifier
                   (variable_identifier)
@@ -111,7 +112,8 @@ fun void print_arr(int a[]) {
               (string)))))
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier

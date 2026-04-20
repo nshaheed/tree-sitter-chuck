@@ -388,13 +388,14 @@ fun void two()
           (line_comment)
           (statement
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string)))
           (statement
             (function_call
               (member_identifier
-                (variable_identifier)
+                (stream_output_keywords)
                 (variable_identifier))))
           (line_comment)
           (conditional
@@ -422,7 +423,8 @@ fun void two()
               (line_comment)
               (statement
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (function_call
                     (member_identifier

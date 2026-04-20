@@ -99,7 +99,8 @@ repeat( 3 )
                   (binary_expression
                     (binary_expression
                       (binary_expression
-                        (variable_identifier)
+                        (keyword
+                          (stream_output_keywords))
                         (operator)
                         (variable_identifier))
                       (operator)

@@ -144,7 +144,8 @@ chout <= "query = ("+ q[0]+","+q[1]+"); k=2: ["+ neighbor_indices[0]+","+neighbo
                   (binary_expression
                     (binary_expression
                       (binary_expression
-                        (variable_identifier)
+                        (keyword
+                          (stream_output_keywords))
                         (operator)
                         (string))
                       (operator)

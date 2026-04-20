@@ -119,7 +119,8 @@ chout <= IO.newline();
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (array_identifier
               (variable_identifier)
@@ -128,7 +129,8 @@ chout <= IO.newline();
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier

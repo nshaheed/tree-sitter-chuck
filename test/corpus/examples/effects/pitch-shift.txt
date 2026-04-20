@@ -205,7 +205,8 @@ while(true)
               (statement
                 (binary_expression
                   (binary_expression
-                    (variable_identifier)
+                    (keyword
+                      (stream_output_keywords))
                     (operator)
                     (string))
                   (operator)
@@ -215,7 +216,8 @@ while(true)
                       (variable_identifier)))))
               (statement
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (function_call
                     (member_identifier
@@ -267,7 +269,8 @@ while(true)
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (string))
               (operator)
@@ -277,7 +280,8 @@ while(true)
                   (variable_identifier)))))
           (statement
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (function_call
                 (member_identifier

@@ -84,7 +84,8 @@ repeat( 3 )
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (array_identifier
                   (variable_identifier)
@@ -93,7 +94,8 @@ repeat( 3 )
               (string)))))
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -112,7 +114,8 @@ repeat( 3 )
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))
           (operator)
@@ -146,7 +149,8 @@ repeat( 3 )
             (binary_expression
               (binary_expression
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (string))
                 (operator)

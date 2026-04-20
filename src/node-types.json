@@ -2665,6 +2665,10 @@
         {
           "type": "special_literal_value",
           "named": true
+        },
+        {
+          "type": "stream_output_keywords",
+          "named": true
         }
       ]
     }
@@ -2866,6 +2870,10 @@
         },
         {
           "type": "reference_type",
+          "named": true
+        },
+        {
+          "type": "stream_output_keywords",
           "named": true
         },
         {
@@ -4205,6 +4213,11 @@
     }
   },
   {
+    "type": "stream_output_keywords",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "string",
     "named": true,
     "fields": {}
@@ -4661,6 +4674,14 @@
     "named": false
   },
   {
+    "type": "cherr",
+    "named": false
+  },
+  {
+    "type": "chout",
+    "named": false
+  },
+  {
     "type": "class",
     "named": false
   },
@@ -4758,11 +4779,11 @@
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "interface",

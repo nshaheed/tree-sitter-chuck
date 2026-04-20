@@ -328,7 +328,8 @@ fun void visGradients()
                           (binary_expression
                             (binary_expression
                               (binary_expression
-                                (variable_identifier)
+                                (keyword
+                                  (stream_output_keywords))
                                 (operator)
                                 (function_call
                                   (member_identifier
@@ -370,7 +371,8 @@ fun void visGradients()
                           (binary_expression
                             (binary_expression
                               (binary_expression
-                                (variable_identifier)
+                                (keyword
+                                  (stream_output_keywords))
                                 (operator)
                                 (function_call
                                   (member_identifier
@@ -420,7 +422,8 @@ fun void visGradients()
                           (binary_expression
                             (binary_expression
                               (binary_expression
-                                (variable_identifier)
+                                (keyword
+                                  (stream_output_keywords))
                                 (operator)
                                 (function_call
                                   (member_identifier
@@ -462,7 +465,8 @@ fun void visGradients()
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -471,7 +475,8 @@ fun void visGradients()
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))
           (operator)
@@ -487,7 +492,8 @@ fun void visGradients()
                 (binary_expression
                   (binary_expression
                     (binary_expression
-                      (variable_identifier)
+                      (keyword
+                        (stream_output_keywords))
                       (operator)
                       (string))
                     (operator)
@@ -508,7 +514,8 @@ fun void visGradients()
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))
           (operator)
@@ -531,7 +538,8 @@ fun void visGradients()
           (binary_expression
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (function_call
                   (member_identifier
@@ -555,7 +563,8 @@ fun void visGradients()
       (variable_identifier)))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -565,7 +574,8 @@ fun void visGradients()
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -576,7 +586,8 @@ fun void visGradients()
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -587,7 +598,8 @@ fun void visGradients()
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -597,7 +609,8 @@ fun void visGradients()
           (variable_identifier)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -634,7 +647,8 @@ fun void visGradients()
               (binary_expression
                 (binary_expression
                   (binary_expression
-                    (variable_identifier)
+                    (keyword
+                      (stream_output_keywords))
                     (operator)
                     (string))
                   (operator)
@@ -679,7 +693,8 @@ fun void visGradients()
             (statement
               (binary_expression
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (array_identifier
                     (variable_identifier)
@@ -688,7 +703,8 @@ fun void visGradients()
                 (string))))
           (statement
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (function_call
                 (member_identifier
@@ -728,7 +744,8 @@ fun void visGradients()
               (binary_expression
                 (binary_expression
                   (binary_expression
-                    (variable_identifier)
+                    (keyword
+                      (stream_output_keywords))
                     (operator)
                     (string))
                   (operator)
@@ -798,7 +815,8 @@ fun void visGradients()
                 (statement
                   (binary_expression
                     (binary_expression
-                      (variable_identifier)
+                      (keyword
+                        (stream_output_keywords))
                       (operator)
                       (array_identifier
                         (variable_identifier)
@@ -808,7 +826,8 @@ fun void visGradients()
                     (string))))
               (statement
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (function_call
                     (member_identifier
@@ -817,7 +836,8 @@ fun void visGradients()
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))
           (operator)
@@ -852,7 +872,8 @@ fun void visGradients()
               (binary_expression
                 (binary_expression
                   (binary_expression
-                    (variable_identifier)
+                    (keyword
+                      (stream_output_keywords))
                     (operator)
                     (string))
                   (operator)
@@ -903,7 +924,8 @@ fun void visGradients()
             (statement
               (binary_expression
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (array_identifier
                     (variable_identifier)
@@ -912,7 +934,8 @@ fun void visGradients()
                 (string))))
           (statement
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (function_call
                 (member_identifier
@@ -949,7 +972,8 @@ fun void visGradients()
               (binary_expression
                 (binary_expression
                   (binary_expression
-                    (variable_identifier)
+                    (keyword
+                      (stream_output_keywords))
                     (operator)
                     (string))
                   (operator)
@@ -994,7 +1018,8 @@ fun void visGradients()
             (statement
               (binary_expression
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (array_identifier
                     (variable_identifier)
@@ -1003,7 +1028,8 @@ fun void visGradients()
                 (string))))
           (statement
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (function_call
                 (member_identifier

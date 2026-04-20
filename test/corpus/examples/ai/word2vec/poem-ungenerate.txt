@@ -619,7 +619,8 @@ fun void shepard()
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -630,7 +631,8 @@ fun void shepard()
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -641,7 +643,7 @@ fun void shepard()
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier))))
   (line_comment)
   (statement
@@ -974,7 +976,8 @@ fun void shepard()
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
@@ -982,7 +985,7 @@ fun void shepard()
       (statement
         (function_call
           (member_identifier
-            (variable_identifier)
+            (stream_output_keywords)
             (variable_identifier))))))
   (line_comment)
   (function_definition
@@ -1028,7 +1031,8 @@ fun void shepard()
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -1037,7 +1041,7 @@ fun void shepard()
       (statement
         (function_call
           (member_identifier
-            (variable_identifier)
+            (stream_output_keywords)
             (variable_identifier))))
       (line_comment)
       (statement

@@ -25,7 +25,8 @@ cherr <= 1 <= " bar " <= 5.5 <= IO.newline();
       (binary_expression
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (int))
           (operator)
@@ -43,7 +44,8 @@ cherr <= 1 <= " bar " <= 5.5 <= IO.newline();
       (binary_expression
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (int))
           (operator)

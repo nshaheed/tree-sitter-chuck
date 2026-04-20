@@ -296,6 +296,7 @@ module.exports = grammar({
       ),
 
     global_unit_generator: () => choice("adc", "blackhole", "dac"),
+    stream_output_keywords: () => choice("chout", "cherr"),
     hexidecimal: () => token(seq("0", /x/i, /[\da-fA-F](_?[\da-fA-F])*/)),
     post_increment_expression: ($) => seq($._expression, choice("++", "--")),
 
@@ -331,6 +332,7 @@ module.exports = grammar({
         $.control_structure_keyword,
         $.duration_identifier,
         $.global_unit_generator,
+	$.stream_output_keywords,
         $.primitive_type,
         $._literal_value,
       ),
@@ -357,6 +359,7 @@ module.exports = grammar({
           $.complex,
           $.expression_group,
           $.global_unit_generator,
+	  $.stream_output_keywords,
           $._identifier,
           $.polar,
           $.string,

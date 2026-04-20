@@ -80,7 +80,8 @@ cherr <= IO.newline();
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -115,7 +116,8 @@ cherr <= IO.newline();
                 (binary_expression
                   (binary_expression
                     (binary_expression
-                      (variable_identifier)
+                      (keyword
+                        (stream_output_keywords))
                       (operator)
                       (string))
                     (operator)
@@ -200,7 +202,8 @@ cherr <= IO.newline();
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (array_identifier
               (variable_identifier)
@@ -209,7 +212,8 @@ cherr <= IO.newline();
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier

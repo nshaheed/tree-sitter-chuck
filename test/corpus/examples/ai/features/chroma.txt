@@ -180,7 +180,8 @@ for( 0 => int i; i < freqs.size(); i++ )
   (line_comment)
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (for_loop
@@ -200,7 +201,8 @@ for( 0 => int i; i < freqs.size(); i++ )
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (array_identifier
               (variable_identifier)
@@ -209,7 +211,8 @@ for( 0 => int i; i < freqs.size(); i++ )
           (string)))))
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -268,7 +271,8 @@ for( 0 => int i; i < freqs.size(); i++ )
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (array_identifier
               (variable_identifier)
@@ -316,7 +320,8 @@ for( 0 => int i; i < freqs.size(); i++ )
             (binary_expression
               (binary_expression
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (expression_group
                     (ternary_expression
@@ -332,7 +337,8 @@ for( 0 => int i; i < freqs.size(); i++ )
               (string)))))
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier

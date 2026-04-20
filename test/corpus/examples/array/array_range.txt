@@ -228,7 +228,8 @@ fun void print( int array[] )
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (string)))
       (line_comment)
@@ -240,7 +241,8 @@ fun void print( int array[] )
         (statement
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (variable_identifier))
             (operator)
@@ -248,13 +250,15 @@ fun void print( int array[] )
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (string)))
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier

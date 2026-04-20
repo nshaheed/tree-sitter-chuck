@@ -169,7 +169,8 @@ fun void predict( float inputs[], float outputs[] )
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -214,7 +215,8 @@ fun void predict( float inputs[], float outputs[] )
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -305,7 +307,8 @@ fun void predict( float inputs[], float outputs[] )
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -316,7 +319,8 @@ fun void predict( float inputs[], float outputs[] )
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -327,7 +331,8 @@ fun void predict( float inputs[], float outputs[] )
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -357,7 +362,8 @@ fun void predict( float inputs[], float outputs[] )
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -452,7 +458,8 @@ fun void predict( float inputs[], float outputs[] )
         (post_increment_expression
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string))
             (operator)
@@ -483,7 +490,8 @@ fun void predict( float inputs[], float outputs[] )
           (line_comment)
           (statement
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string)))
           (line_comment)
@@ -502,7 +510,8 @@ fun void predict( float inputs[], float outputs[] )
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -542,7 +551,8 @@ fun void predict( float inputs[], float outputs[] )
                           (binary_expression
                             (binary_expression
                               (binary_expression
-                                (variable_identifier)
+                                (keyword
+                                  (stream_output_keywords))
                                 (operator)
                                 (string))
                               (operator)

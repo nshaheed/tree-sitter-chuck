@@ -670,7 +670,8 @@ class W2V
                       (binary_expression
                         (binary_expression
                           (binary_expression
-                            (variable_identifier)
+                            (keyword
+                              (stream_output_keywords))
                             (operator)
                             (string))
                           (operator)
@@ -1354,7 +1355,8 @@ class W2V
                             (statement
                               (binary_expression
                                 (binary_expression
-                                  (variable_identifier)
+                                  (keyword
+                                    (stream_output_keywords))
                                   (operator)
                                   (array_identifier
                                     (variable_identifier)
@@ -1378,7 +1380,8 @@ class W2V
                                 (statement
                                   (binary_expression
                                     (binary_expression
-                                      (variable_identifier)
+                                      (keyword
+                                        (stream_output_keywords))
                                       (operator)
                                       (array_identifier
                                         (variable_identifier)
@@ -1387,7 +1390,8 @@ class W2V
                                     (string)))))
                             (statement
                               (binary_expression
-                                (variable_identifier)
+                                (keyword
+                                  (stream_output_keywords))
                                 (operator)
                                 (function_call
                                   (member_identifier
@@ -1805,7 +1809,8 @@ class W2V
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (array_identifier
                   (variable_identifier)
@@ -1814,7 +1819,8 @@ class W2V
               (string)))))
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -1837,7 +1843,8 @@ class W2V
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (array_identifier
                   (variable_identifier)
@@ -1846,7 +1853,8 @@ class W2V
               (string)))))
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier

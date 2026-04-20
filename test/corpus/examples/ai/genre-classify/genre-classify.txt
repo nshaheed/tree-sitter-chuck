@@ -862,7 +862,8 @@ fun void readData( FileIO fio )
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))
           (operator)
@@ -889,7 +890,8 @@ fun void readData( FileIO fio )
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (array_identifier
                   (variable_identifier)
@@ -912,14 +914,16 @@ fun void readData( FileIO fio )
             (block
               (statement
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (string)))))
           (line_comment)
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (array_identifier
                   (variable_identifier)

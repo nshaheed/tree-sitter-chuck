@@ -79,7 +79,8 @@ for( int i; i < N; i++ )
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (array_identifier
               (variable_identifier)

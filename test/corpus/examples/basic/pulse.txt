@@ -130,7 +130,8 @@ while( true )
           (statement
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (string))
               (operator)
@@ -152,13 +153,15 @@ while( true )
             (block
               (statement
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (string)))))
           (line_comment)
           (statement
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (function_call
                 (member_identifier

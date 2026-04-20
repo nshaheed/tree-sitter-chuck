@@ -93,7 +93,8 @@ while( true )
     (block
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (string)))
       (statement
@@ -103,7 +104,8 @@ while( true )
   (line_comment)
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (string)))
   (for_loop
@@ -125,7 +127,8 @@ while( true )
           (binary_expression
             (binary_expression
               (binary_expression
-                (variable_identifier)
+                (keyword
+                  (stream_output_keywords))
                 (operator)
                 (variable_identifier))
               (operator)
@@ -177,7 +180,8 @@ while( true )
         (binary_expression
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string))
             (operator)
@@ -211,7 +215,8 @@ while( true )
         (binary_expression
           (binary_expression
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (string))
             (operator)
@@ -317,7 +322,8 @@ while( true )
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (string))
           (operator)

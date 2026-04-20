@@ -518,7 +518,8 @@ fun int extractFeatures( string inputFilePath, string label, IO out )
   (line_comment)
   (statement
     (chuck_operation
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (chuck_operator)
       (reference_declaration
         (class_identifier)
@@ -670,7 +671,8 @@ fun int extractFeatures( string inputFilePath, string label, IO out )
                 (binary_expression
                   (binary_expression
                     (binary_expression
-                      (variable_identifier)
+                      (keyword
+                        (stream_output_keywords))
                       (operator)
                       (string))
                     (operator)
@@ -710,7 +712,8 @@ fun int extractFeatures( string inputFilePath, string label, IO out )
             (binary_expression
               (binary_expression
                 (binary_expression
-                  (variable_identifier)
+                  (keyword
+                    (stream_output_keywords))
                   (operator)
                   (string))
                 (operator)

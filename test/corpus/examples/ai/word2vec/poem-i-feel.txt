@@ -506,7 +506,8 @@ fun void endl( dur T )
   (line_comment)
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -515,7 +516,7 @@ fun void endl( dur T )
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier))))
   (line_comment)
   (for_loop
@@ -624,7 +625,8 @@ fun void endl( dur T )
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (function_call
               (member_identifier
@@ -638,7 +640,7 @@ fun void endl( dur T )
       (statement
         (function_call
           (member_identifier
-            (variable_identifier)
+            (stream_output_keywords)
             (variable_identifier))))
       (line_comment)
       (statement
@@ -651,7 +653,8 @@ fun void endl( dur T )
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -662,7 +665,8 @@ fun void endl( dur T )
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -673,7 +677,7 @@ fun void endl( dur T )
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier))))
   (line_comment)
   (function_definition
@@ -771,7 +775,8 @@ fun void endl( dur T )
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -780,7 +785,7 @@ fun void endl( dur T )
       (statement
         (function_call
           (member_identifier
-            (variable_identifier)
+            (stream_output_keywords)
             (variable_identifier))))
       (line_comment)
       (statement
@@ -870,7 +875,8 @@ fun void endl( dur T )
       (statement
         (binary_expression
           (binary_expression
-            (variable_identifier)
+            (keyword
+              (stream_output_keywords))
             (operator)
             (variable_identifier))
           (operator)
@@ -878,7 +884,7 @@ fun void endl( dur T )
       (statement
         (function_call
           (member_identifier
-            (variable_identifier)
+            (stream_output_keywords)
             (variable_identifier))))))
   (line_comment)
   (function_definition
@@ -973,7 +979,8 @@ fun void endl( dur T )
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -982,7 +989,7 @@ fun void endl( dur T )
       (statement
         (function_call
           (member_identifier
-            (variable_identifier)
+            (stream_output_keywords)
             (variable_identifier))))
       (line_comment)
       (statement

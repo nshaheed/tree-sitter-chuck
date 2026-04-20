@@ -361,7 +361,8 @@ chout.flush();
   (line_comment)
   (statement
     (binary_expression
-      (variable_identifier)
+      (keyword
+        (stream_output_keywords))
       (operator)
       (function_call
         (member_identifier
@@ -370,7 +371,7 @@ chout.flush();
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier))))
   (line_comment)
   (for_loop
@@ -412,7 +413,8 @@ chout.flush();
               (statement
                 (binary_expression
                   (binary_expression
-                    (variable_identifier)
+                    (keyword
+                      (stream_output_keywords))
                     (operator)
                     (variable_identifier))
                   (operator)
@@ -420,7 +422,7 @@ chout.flush();
               (statement
                 (function_call
                   (member_identifier
-                    (variable_identifier)
+                    (stream_output_keywords)
                     (variable_identifier))))
               (line_comment)
               (statement
@@ -560,7 +562,8 @@ chout.flush();
           (line_comment)
           (statement
             (binary_expression
-              (variable_identifier)
+              (keyword
+                (stream_output_keywords))
               (operator)
               (function_call
                 (member_identifier
@@ -569,7 +572,7 @@ chout.flush();
           (statement
             (function_call
               (member_identifier
-                (variable_identifier)
+                (stream_output_keywords)
                 (variable_identifier))))
           (line_comment)
           (statement
@@ -581,7 +584,8 @@ chout.flush();
       (line_comment)
       (statement
         (binary_expression
-          (variable_identifier)
+          (keyword
+            (stream_output_keywords))
           (operator)
           (function_call
             (member_identifier
@@ -590,7 +594,7 @@ chout.flush();
       (statement
         (function_call
           (member_identifier
-            (variable_identifier)
+            (stream_output_keywords)
             (variable_identifier))))
       (line_comment)
       (statement
@@ -603,7 +607,8 @@ chout.flush();
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -614,7 +619,8 @@ chout.flush();
   (statement
     (binary_expression
       (binary_expression
-        (variable_identifier)
+        (keyword
+          (stream_output_keywords))
         (operator)
         (string))
       (operator)
@@ -625,5 +631,5 @@ chout.flush();
   (statement
     (function_call
       (member_identifier
-        (variable_identifier)
+        (stream_output_keywords)
         (variable_identifier)))))

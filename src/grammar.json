@@ -1430,6 +1430,19 @@
         }
       ]
     },
+    "stream_output_keywords": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "chout"
+        },
+        {
+          "type": "STRING",
+          "value": "cherr"
+        }
+      ]
+    },
     "hexidecimal": {
       "type": "TOKEN",
       "content": {
@@ -1617,6 +1630,10 @@
         },
         {
           "type": "SYMBOL",
+          "name": "stream_output_keywords"
+        },
+        {
+          "type": "SYMBOL",
           "name": "primitive_type"
         },
         {
@@ -1718,6 +1735,10 @@
             {
               "type": "SYMBOL",
               "name": "global_unit_generator"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "stream_output_keywords"
             },
             {
               "type": "SYMBOL",
