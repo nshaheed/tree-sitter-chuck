@@ -108,7 +108,13 @@ module.exports = grammar({
 
     class_definition: ($) =>
       seq(
-        optional($.doc_comment),
+	  optional(choice(
+	      $.doc_comment,
+	      repeat1($.example_comment),
+	      seq($.doc_comment, repeat1($.example_comment)),
+	      seq(repeat1($.example_comment), $.doc_comment),
+	      seq(repeat1($.example_comment), $.doc_comment, repeat1($.example_comment)),
+	  )),
         optional("public"),
         "class",
         choice($.class_identifier, $.variable_identifier),
@@ -164,7 +170,9 @@ module.exports = grammar({
     _declaration: ($) =>
       choice($.reference_declaration, $.variable_declaration),
 
-    doc_comment: ($) => seq("@doc", $.string),
+      _string_array: ($) => seq("[", seq($.string, repeat(seq(",", $.string))) , "]"),
+      doc_comment: ($) => seq("@doc", choice($.string, $._string_array)),
+    example_comment: ($) => seq("@example", choice($.string, $._string_array)),
 
     documented_expression: ($) =>
       seq($.doc_comment, choice($.chuck_operation, $._expression)),

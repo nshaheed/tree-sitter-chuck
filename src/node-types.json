@@ -871,6 +871,10 @@
           "named": true
         },
         {
+          "type": "example_comment",
+          "named": true
+        },
+        {
           "type": "variable_identifier",
           "named": true
         }
@@ -1546,7 +1550,7 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "types": [
         {
@@ -1874,6 +1878,21 @@
     "type": "duration_identifier",
     "named": true,
     "fields": {}
+  },
+  {
+    "type": "example_comment",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
   },
   {
     "type": "expression_group",
@@ -4602,6 +4621,10 @@
   },
   {
     "type": "@doc",
+    "named": false
+  },
+  {
+    "type": "@example",
     "named": false
   },
   {

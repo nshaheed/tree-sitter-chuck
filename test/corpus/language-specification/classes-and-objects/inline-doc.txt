@@ -1,0 +1,106 @@
+=======
+Inline doc single
+=======
+
+@doc "this is a doc string"
+class X {
+
+}
+
+---
+
+(source_file
+  (class_definition
+    (doc_comment
+      (string))
+    (class_identifier)
+    (block)))
+
+
+=======
+Inline doc array
+=======
+
+@doc ["this", "is", "a", "doc", "array"]
+class X {
+
+}
+
+---
+
+(source_file
+  (class_definition
+    (doc_comment
+      (string)
+      (string)
+      (string)
+      (string)
+      (string))
+    (class_identifier)
+    (block)))
+
+
+=======
+Inline example single
+=======
+
+@example "test.ck"
+class X {
+
+}
+
+---
+
+(source_file
+  (class_definition
+    (example_comment
+      (string))
+    (class_identifier)
+    (block)))
+
+
+=======
+Inline combined
+=======
+
+@example "test.ck"
+@doc "documentation!"
+class X {
+
+}
+
+---
+
+(source_file
+  (class_definition
+    (example_comment
+      (string))
+    (doc_comment
+      (string))      
+    (class_identifier)
+    (block)))
+
+=======
+Inline combined2
+=======
+
+@example "test.ck"
+@doc "documentation!"
+@example ["test2.ck", "test3.ck"]
+class X {
+
+}
+
+---
+
+(source_file
+  (class_definition
+    (example_comment
+      (string))
+    (doc_comment
+      (string))
+    (example_comment
+      (string)
+      (string))
+    (class_identifier)
+    (block)))
