@@ -817,6 +817,10 @@
         {
           "type": "STRING",
           "value": "week"
+        },
+        {
+          "type": "STRING",
+          "value": "eon"
         }
       ]
     },
