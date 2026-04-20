@@ -4653,7 +4653,8 @@
   },
   {
     "type": "block_comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "break",
@@ -4700,6 +4701,10 @@
     "named": false
   },
   {
+    "type": "eon",
+    "named": false
+  },
+  {
     "type": "escape_character",
     "named": true
   },
@@ -4713,11 +4718,11 @@
   },
   {
     "type": "float",
-    "named": false
+    "named": true
   },
   {
     "type": "float",
-    "named": true
+    "named": false
   },
   {
     "type": "for",
@@ -4753,11 +4758,11 @@
   },
   {
     "type": "int",
-    "named": false
+    "named": true
   },
   {
     "type": "int",
-    "named": true
+    "named": false
   },
   {
     "type": "interface",
@@ -4765,7 +4770,8 @@
   },
   {
     "type": "line_comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "maybe",

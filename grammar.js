@@ -173,7 +173,7 @@ module.exports = grammar({
       seq("do", $._control_structure_body, $._until_while_expression),
 
     duration_identifier: () =>
-      choice("day", "hour", "minute", "ms", "samp", "second", "week"),
+      choice("day", "hour", "minute", "ms", "samp", "second", "week", "eon"),
 
     dur: ($) =>
       seq(

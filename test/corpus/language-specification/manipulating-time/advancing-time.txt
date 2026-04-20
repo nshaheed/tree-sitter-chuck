@@ -14,6 +14,9 @@ Advancing time by duration
 // advance time by less than 1 samp
 .024::samp => now;
 
+// advance time by a long time
+eon => now;
+
 ---
 
 (source_file
@@ -49,6 +52,14 @@ Advancing time by duration
     (chuck_operation
       (dur
         (float)
+        (duration_identifier))
+      (chuck_operator)
+      (keyword
+        (special_literal_value))))	
+  (line_comment)
+  (statement
+    (chuck_operation
+      (keyword
         (duration_identifier))
       (chuck_operator)
       (keyword
